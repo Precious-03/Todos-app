@@ -34,6 +34,7 @@ while True:
     elif user_action.startswith("edit"):
         try:
             number = int(user_action[5:])
+            print("hello")
             print(number)
             number = number - 1
 
