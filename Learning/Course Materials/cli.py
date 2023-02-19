@@ -1,4 +1,4 @@
-from Modules.functions import get_todos, write_todos
+from Learning.Modules.functions import get_todos, write_todos
 import time
 
 
@@ -34,7 +34,6 @@ while True:
     elif user_action.startswith("edit"):
         try:
             number = int(user_action[5:])
-            print("hello")
             print(number)
             number = number - 1
 
